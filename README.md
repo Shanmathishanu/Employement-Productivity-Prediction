@@ -9,7 +9,7 @@ import os
 for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
-df = pd.read_csv("C:\\Users\\gayat\\Downloads\\garments_worker_productivity (1).csv")
+df = pd.read_csv("path of file")
 df.head()
 date	quarter	department	day	team	targeted_productivity	smv	wip	over_time	incentive	idle_time	idle_men	no_of_style_change	no_of_workers	actual_productivity
 0	1/1/2015	Quarter1	sweing	Thursday	8	0.80	26.16	1108.0	7080	98	0.0	0	0	59.0	0.940725
